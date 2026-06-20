@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Syauqi&#39;s Space</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Syauqi&#39;s Space</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Ciao! I&amp;rsquo;m Syauqi 👋 I&amp;rsquo;m a Growth Data Analyst at Bolt, working to balance the marketplace so drivers and riders both win. Previously I was Analytics &amp;amp; Insight Manager at Procter &amp;amp; Gamble and a Junior AI &amp;amp; Data Consultant at Deloitte. I&amp;rsquo;m trained in applied mathematics and industrial engineering (Politecnico di Milano; Institut Teknologi Bandung).&lt;/p&gt;
+&lt;p&gt;On this site you&amp;rsquo;ll find my projects and notes about machine learning, analytics, and probability/statistics — basically any technical things I&amp;rsquo;ve learned along my career.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;Welcome to my new blog powered by Hugo and PaperMod!&lt;/p&gt;
+&lt;p&gt;This is my very first post on the new setup. It&amp;rsquo;s clean, minimal, and perfectly suited for my content.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;Here are some of the projects I&amp;rsquo;ve been working on.&lt;/p&gt;
+&lt;h3 id=&#34;project-1&#34;&gt;Project 1&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Description of Project 1 goes here.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;project-2&#34;&gt;Project 2&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Description of Project 2 goes here.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(I will update this list with real projects soon!)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
