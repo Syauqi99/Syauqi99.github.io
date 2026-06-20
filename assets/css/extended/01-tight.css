@@ -1,0 +1,57 @@
+:root {
+    --gap: 16px;
+    --content-gap: 12px;
+    --nav-width: 960px;
+    --main-width: 660px;
+    --header-height: 52px;
+    --footer-height: 52px;
+    --radius: 6px;
+}
+
+.main {
+    padding-top: 12px;
+}
+
+.first-entry {
+    min-height: 0;
+    margin: 0 0 calc(var(--gap) * 1.25) 0;
+}
+
+.home-info {
+    margin-bottom: 0;
+}
+
+.home-info .entry-content {
+    --content-gap: 0.35rem;
+}
+
+.home-info .entry-content p {
+    margin-block: 0.5em;
+}
+
+.home-info .social-icons {
+    margin-top: 0.35rem;
+}
+
+.post-entry {
+    margin-bottom: 12px;
+    padding: 14px 16px;
+}
+
+.entry-header h2 {
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.entry-content {
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+.entry-footer {
+    font-size: 12px;
+}
+
+.social-icons a {
+    padding-inline: 6px;
+}
