@@ -4,8 +4,6 @@ date: 2026-06-20T00:00:00Z
 draft: false
 ---
 
-Hi, I'm Syauqi!
+Hi — I'm Syauqi 👋 I'm a Growth Data Analyst at Bolt, working to balance the marketplace so drivers and riders both win. Previously I was Analytics & Insight Manager at Procter & Gamble and a Junior AI & Data Consultant at Deloitte. I'm trained in applied mathematics and industrial engineering (Politecnico di Milano; Institut Teknologi Bandung).
 
-This is my brand new site powered by Hugo and PaperMod. 
-
-I'll be updating this page soon with more details about who I am and what I do.
+On this site you'll find my projects and notes about machine learning, analytics, and probability/statistics — practical things I've learned along the way.
