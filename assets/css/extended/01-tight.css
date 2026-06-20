@@ -8,6 +8,11 @@
     --radius: 6px;
 }
 
+body {
+    font-size: 17px;
+    line-height: 1.75;
+}
+
 .main {
     padding-top: 8px;
 }
@@ -31,8 +36,8 @@
 
 .home-info .entry-content p {
     margin-block: 0.45em;
-    font-size: 15px;
-    line-height: 1.7;
+    font-size: 16px;
+    line-height: 1.75;
 }
 
 .home-info .social-icons {
@@ -45,13 +50,14 @@
 }
 
 .entry-header h2 {
-    font-size: 22px;
-    line-height: 1.25;
+    font-size: 23px;
+    line-height: 1.35;
 }
 
 .entry-content {
     margin: 6px 0;
-    line-height: 1.5;
+    line-height: 1.65;
+    font-size: 15px;
 }
 
 .entry-footer {
