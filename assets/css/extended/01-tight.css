@@ -18,7 +18,7 @@
 }
 
 .home-info {
-    margin-bottom: 0;
+    margin-bottom: calc(var(--gap) * 1.75);
 }
 
 .home-info .entry-content {
@@ -30,7 +30,7 @@
 }
 
 .home-info .social-icons {
-    margin-top: 0.35rem;
+    margin-top: 0.5rem;
 }
 
 .post-entry {
