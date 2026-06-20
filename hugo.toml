@@ -1,0 +1,52 @@
+baseURL = "https://Syauqi99.github.io/"
+languageCode = "en-us"
+title = "Syauqi's Space"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  title = "Syauqi"
+  description = "My personal website and blog"
+  author = "Syauqi"
+  
+  # PaperMod specific options
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  [params.profileMode]
+    enabled = true
+    title = "Hello! 👋"
+    subtitle = "Welcome to my personal website, blog, and projects portfolio."
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
+    [[params.profileMode.buttons]]
+      name = "About Me"
+      url = "/about"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 30
