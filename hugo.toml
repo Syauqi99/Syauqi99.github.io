@@ -1,5 +1,5 @@
 baseURL = "https://Syauqi99.github.io/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Syauqi's Paper Notes"
 theme = "PaperMod"
 
@@ -56,3 +56,10 @@ theme = "PaperMod"
     name = "Projects"
     url = "/projects/"
     weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        useEmbedded = "fallback"
+

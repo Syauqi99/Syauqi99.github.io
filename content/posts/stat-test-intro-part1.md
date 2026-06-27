@@ -6,6 +6,11 @@ draft: false
 
 There are many Medium blogs that explain statistical tests—particularly A/B tests and multivariate tests. However, I’ve found they often lack business context and depth. In this series, I want to strike a middle ground: providing more real‑world context and the extra depth that many of those blogs miss. I’ll approach this through a case study.
 
+<!-- Markdown syntax -->
+![Store Display](/store-display.png)
+*Figure 1: Illustrating the whole problem statement of store shelf display allocation. (this one is created by Gemini AI)*
+
+
 # Why do we need statistical testing (or experimentation)?
 Let’s think about a concrete scenario. Suppose you’re a data scientist (or analyst) at a large retail company. You have many stakeholders who don’t have much background in statistics, but they do have strong business knowledge that goes beyond the numbers in a spreadsheet.
 
@@ -19,6 +24,7 @@ Now the head of sales says, “Their argument makes sense! We should just give m
 As a data scientist, you need to help them decide: does it make sense to tie the number of display slots to a product’s market share?
 
 To understand why statistical testing (or experimentation) is needed, let’s audit several common suggestions.
+
 
 ### Let’s do a full rollout and compare the results afterwards (pre‑post)
 This is the most common suggestion, but it often clouds the right conclusions. The main reason is seasonality and external factors. What if the test coincides with a major holiday, payday, or a huge macroeconomic change? These external factors will have a larger effect on the increase/decrease of sales than the display changes. Another reason against it is **regression to the mean**. Suppose the supplier approaches us immediately after experiencing an unusually poor month. Even if we do nothing, sales will tend to move closer to their long-term average over time. If we implement the new display strategy immediately afterward, we may mistakenly attribute this natural recovery to our intervention.
@@ -34,6 +40,8 @@ This is anecdotal aggregation dressed as domain expertise. Regional managers are
 | Pre‑post full rollout          | Seasonality, regression to the mean    |
 | Compare rule‑breaking stores   | Selection bias, confounders            |
 | Ask regional managers          | Availability bias, confirmation bias   |
+
+
 
 ### So what should we do?
 The solution is a controlled experiment where we randomly split stores into treatment and control, then compare outcomes using a statistical test. That test answers the key question: given the natural week‑to‑week and store‑to‑store variation, can we be confident the difference we see isn’t just noise? To run such an experiment, we need a clear design—below are the four steps that will get us there.
